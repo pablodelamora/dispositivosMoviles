@@ -1,7 +1,7 @@
 <?php
 include_once('config.php');
 
-class administradorDB{
+class administradorBD{
   public function executeQuery($sql){
     $conecta = mysql_connect(config::obtieneServidorBD(), config::obtieneUsuarioDB(), config::obtienePasswordDB());
     if (!$conecta){
@@ -14,5 +14,5 @@ class administradorDB{
     mysql_close($conecta);
     return $result;
   }
-} 
+}
 ?>
