@@ -4,7 +4,7 @@ class config{
     return 'localhost';
   }
   public static function obtieneNombreDB(){
-    return 'pddm-1020365';
+    return 'pddm_1020365';
   }
   public static function obtieneUsuarioDB(){
     return '1020365_user';
