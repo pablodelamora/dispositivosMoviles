@@ -1,6 +1,6 @@
 <?php
 include_once('config.php');
-include_once('administradorDB.php');
+include_once('administradorBD.php');
 
 class autos{
 
